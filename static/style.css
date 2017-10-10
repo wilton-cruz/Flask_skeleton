@@ -1,0 +1,131 @@
+
+/*
+Variables
+color: #1e2c42;
+*/
+:root {
+  --main-color: #1e2c42;
+}
+body {
+  background: #eee;
+}
+
+/* ================ NAVIGATION ============== */
+nav {
+  border-top: 5px solid rgba(108, 33, 105, 0.85);
+}
+.logo-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-wrap .logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: var(--main-color);
+}
+.social-icons {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  cursor: pointer;
+
+}
+.social-icons li a {
+  text-decoration: none;
+  font-size: 2rem;
+  padding-left: .4rem;
+  cursor: pointer;
+}
+.top-nav {
+  margin: 0 auto;
+  width:90%;
+  color: var(--main-color);
+}
+.top-nav .menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  list-style: none;
+
+}
+
+ul li > a {
+  color: var(--main-color);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8rem;
+  cursor: pointer;
+}
+
+
+/* ================ BODY OF PAGE ============== */
+
+.container {
+  margin: 0 auto;
+  width:90%;
+}
+
+.front-page {
+  background-image: url('coffee.jpg');
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  color: var(--main-color);
+}
+
+.container h1 {
+  text-transform: uppercase;
+}
+
+.container h2 {
+  text-transform: capitalize;
+}
+
+/* ================ FOOTER ============== */
+
+footer {
+    border-top: 2px dashed slategray;
+    padding-top: 1rem;
+    color: var(--main-color);
+}
+
+/* ================ XL SCREEN ============== */
+@media screen and (min-width: 1200px) {
+  .top-nav,
+  .container {
+    max-width: 70%;
+  }
+  .top-nav .menu {
+    max-width: 50%;
+  }
+  .front-page .container {
+    width: 60%;
+  }
+}
+/* ================ LARGE SCREEN ============== */
+@media screen and (min-width: 960px) {
+  .top-nav,
+  .container {
+    max-width: 70%;
+  }
+  .top-nav .menu {
+    width: 50%;
+  }
+}
+/* ================ TABLET SCREEN ============== */
+@media screen and (min-width: 768px) {
+  .top-nav,
+  .container {
+    max-width: 70%;
+  }
+  .top-nav .menu {
+    width: 70%;
+  }
+
+}
