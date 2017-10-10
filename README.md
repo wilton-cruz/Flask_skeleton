@@ -7,7 +7,11 @@ Routing and css files included.
 
 [This the Link to Flask Docs](http://flask.pocoo.org/docs/0.12/)
 
-![alt text](https://drive.google.com/file/d/0B3wR4cSI-8IwOVNNME0xa3kzbnc/view?usp=sharing "Screenshot of the app.")
+
+
 
 ![alt text](http://flask.pocoo.org/static/logo/flask.svg "The Flask Logo.")
 
+#### Screenshot of webapp.
+
+![alt text](https://github.com/wilton-cruz/Flask_skeleton/blob/master/static/flask-app.png "Screenshot of the app.")
