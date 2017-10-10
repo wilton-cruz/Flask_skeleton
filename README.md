@@ -5,7 +5,7 @@ Routing and css files included.
 
 ## Flask Reference Here
 
-[This the Link to Flask Docs](http://flask.pocoo.org/docs/0.12/)
+[This is the Link to Flask Docs](http://flask.pocoo.org/docs/0.12/)
 
 
 
