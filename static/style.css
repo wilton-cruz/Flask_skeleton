@@ -71,7 +71,8 @@ ul li > a {
 }
 
 .front-page {
-  background-image: url('coffee.jpg');
+  background: url('coffee.jpg') no-repeat;
+  background-position: bottom center;
   background-size: cover;
   height: 70vh;
   display: flex;
