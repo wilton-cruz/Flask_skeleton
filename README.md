@@ -14,4 +14,4 @@ Routing and css files included.
 
 #### Screenshot of webapp.
 
-![alt text](https://giphy.com/gifs/3o6nUVDhclgSr8nnrO/html5 "Screenshot of the app.")
+![alt text](https://github.com/wilton-cruz/Flask_skeleton/blob/master/static/flask-app.gif "Screenshot of the app.")
